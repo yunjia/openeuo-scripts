@@ -1,4 +1,4 @@
-dofile("utilities-0.1.1.lua")
+dofile("utilities-0.1.3.lua")
 
 --------------------------------------------------------------------------------
 --    Helper Methods
@@ -160,7 +160,7 @@ local testCharacters = {
   }
 }
 
-local initDelay = 13 * 60000
+--local initDelay = 13 * 60000
 
 --------------------------------------------------------------------------------
 --    Main Procedure                                                                                                                                                
