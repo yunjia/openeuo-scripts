@@ -100,13 +100,13 @@ function getBODs()
   if tailorBook ~= nil then
     log("Tailor book deeds: "..tailorBook.Property["Deeds In Book"])
   end
-  moveBodToBook(findTailorBods(), tailorBook)
+  moveBodsToBook(findTailorBods(), tailorBook)
   
   local smithBook = findBodBookWithName("Smith")
   if smithBook ~= nil then
     log("Smith book deeds: "..smithBook.Property["Deeds In Book"])
   end
-  moveBodToBook(findSmithBods(), smithBook)
+  moveBodsToBook(findSmithBods(), smithBook)
 end
 
 function logout(account)
