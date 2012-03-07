@@ -6,7 +6,7 @@
 --
 
 -- Load libraries
-dofile("utilities-0.1.2.lua")
+dofile("utilities.lua")
 
 -- Global variables
 local form, btnSourceBook, lblSourceBook, btnTargetBook, lblTargetBook

@@ -10,6 +10,9 @@
 --   0.1.2
 --     03/06/2012        Added dropBodFromBook, findBods, doubleClickObject
 --   0.1.3
+--     03/07/2012        Added gumpAppearedWithId(gumpId, delay), waitForBodBook(delay)
+--                       function openBodBook(book), and import the journal scan
+--                       lib from Kal In Ex, url: http://www.easyuo.com/forum/viewtopic.php?t=43488
 --------------------------------------------------------------------------------
 dofile("FluentUO.lua")
 dofile("journal.lua")
